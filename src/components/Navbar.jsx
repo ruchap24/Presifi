@@ -36,7 +36,10 @@ function Navbar() {
 				show ? "translate-y-0" : "-translate-y-full"
 			} fixed backdrop-blur-sm z-[999] w-full px-20 py-5 font-['Bebas Neue'] flex justify-between items-center`}
 		>
-			<div className="logo">
+        <div className='logo'>
+            <h1 className='text-3xl font-bold'>Presifi</h1>
+        </div>
+			{/* <div className="logo">
 				<svg
 					width="72"
 					height="30"
@@ -65,7 +68,7 @@ function Navbar() {
 						fill="currentColor"
 					></path>
 				</svg>
-			</div>
+			</div> */}
 			<div className="Links flex gap-10">
 				{["Services", "Our Work", "About Us", "Insights", "Contact Us"].map(
 					(item, index) => (
